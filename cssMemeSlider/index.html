@@ -1,1 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meme Slider</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="slider">
+        <input type="radio" id="slide-1" name="slider" class="slider__radio" checked>
+        <input type="radio" id="slide-2" name="slider" class="slider__radio">
+        <input type="radio" id="slide-3" name="slider" class="slider__radio">
+        <input type="radio" id="slide-4" name="slider" class="slider__radio">
 
+        <div class="slider__window">
+            <div class="slider__inner">
+                <div class="slider__slide">
+                    <img src="./img/mem1.png" alt="Meme 1" class="slider__image">
+                    <p class="slider__text">Работаешь над проектом неделю, а потом оказывается, что не работаешь вовсе.</p>
+                </div>
+                <div class="slider__slide">
+                    <img src="./img/mem2.jpeg" alt="Meme 2" class="slider__image">
+                    <p class="slider__text">Когда обещали зп 1000000$.</p>
+                </div>
+                <div class="slider__slide">
+                    <img src="./img/mem3.jpeg" alt="Meme 3" class="slider__image">
+                    <p class="slider__text">Это не ии!</p>
+                </div>
+                <div class="slider__slide">
+                    <img src="./img/mem4.jpeg" alt="Meme 4" class="slider__image">
+                    <p class="slider__text">За проект!</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="slider__controls">
+            <label for="slide-1" class="slider__label"></label>
+            <label for="slide-2" class="slider__label"></label>
+            <label for="slide-3" class="slider__label"></label>
+            <label for="slide-4" class="slider__label"></label>
+        </div>
+    </main>
+</body>
+</html>
