@@ -130,3 +130,12 @@ body {
     background-color: #ffcc00;
     transform: scale(1.2);
 }
+
+@media (max-width: 500px) {
+    html {
+        font-size: 14px;
+    }
+    .slider__image {
+        height: 16rem;
+    }
+}
